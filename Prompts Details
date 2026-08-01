@@ -1,1 +1,45 @@
+28.07.2026 (or) 27.07.2026 
+1) city deopdwon set city name and district no affert other code\
+2) Class "ZipArchive" not found find the error this error show import excel
+3) i click Preview Data
+4) this error show Class "ZipArchive" not found what happen
+5) Analyze and fix the import excel upload issue without affecting existing functionality.
+6) Call to undefined method App\Models\Bank::financialSecurities() bank master delete not working
+7) set the dropdown in bank name and holder name in list page uper
+8) the list page upper and admin setting bank lower so middle set this dropdwon set
+9) worng place bank master list page outside upper side and admin\setting\bank outside lower  center make the dropdwon set
+10) left side move
+11) worng place users list page outside upper side and admin\usercreation outside lower  center make the dropdwon set staff name user name and mobile no
+12) city deopdwon set city name and district no affect other  code\
+13) user mobile no search box only type  no not string
+14) only 10 digite for users mobile no search box
+15) users edit btn not working
+16) remove import excel and download sample template for users and user screen
+17) setting based state .district,city,etc add only eyecone no afferct other code
+18) city deopdwon set city name and district no affect other  code\
+19) city add new district ui not working change problem and no afferect other code
+20) district list page add the dropdwon district name and state
+21) division page set the dropdwon name and zone
+22) dropdwon for station list page in station code and station name and zone not afferct other code
+23) zone dropdwon replace division dropdwon
+24) dropdwon for customer master in customer name and contact name and state no afferct other code
+25) dropdwon for vendor master in company name and name and search box for pan no
+26) dropdwon for engineer master in employee id  and name and search box for mobile no
+27) replace mobile no for dropdwon engineer type
 
+29.07.2026
+* Create a complete Gantt chart Tasks Master module with CRUD, validation, migration, controller, model, routes, permissions, and UI
+* Add tasks and sub-tasks for Schedule Type Master to create UI, validation, route, and permissions not affecting other code
+
+30.07.2026
+• Set input limits and numeric-only rules for Account Number and Confirm Account Number, and set the character limit for IFSC Code under Banking Details in the Engineer Master
+• Create a complete Gantt chart Phases Master module with CRUD, validation, migration, controller, model, routes, permissions, and UI set the order Phases and Status
+• Remove tasks under Schedule type
+• Set only Phase, Tasks, and Status in the Gantt chart tasks
+• Set limits and restrict input to numbers only for mobile number, alternative mobile number, and postal code, and enforce the email format in the Engineer Master contact information.
+• Set character limits for Aadhaar number (numeric only) and PAN number under Government Identity in the Engineer Master
+• In the 'Engineer Master' section, please configure the banking details so that the bank name, branch name, and bank address populate automatically when the IFSC code is entered.
+
+31.07.2026
+• Add login credentials under Personal Information in Engineer Master, consistent with Vendor Master 
+• Implement login credentials within the Customer Master module, mirroring the Vendor Master setup
