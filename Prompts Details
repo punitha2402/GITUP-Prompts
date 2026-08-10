@@ -43,3 +43,31 @@
 31.07.2026
 • Add login credentials under Personal Information in Engineer Master, consistent with Vendor Master 
 • Implement login credentials within the Customer Master module, mirroring the Vendor Master setup
+
+02.08.2026
+• User should be able to log in successfully using the new password in Engineer Master, Customer Master, and Vendor Master after a password change
+• Login is successful, but the screen turns blank instead of displaying all the details. All details should be displayed properly
+
+05.08.2026
+• Set the Engineer Master's contact info using the proper Gmail format.
+• Show an error message when an invalid Gmail format is submitted in the Engineer Master contact details.
+• Upon saving the login credentials (username and password) in both Engineer Master and Customer Master, logging in should be successful, displaying all files and full details
+• In my Engineer Master form, the 'Official Email' field only allows @gmail.com domains and shows the error: 'Enter a valid Gmail address'. Please update the email validation logic and regex so that it allows official company domains (like @aedindia.com) and update the error message accordingly
+• LOA module before after the project team creating new Gantt Chart details
+• In the LOA module, under the Gantt Chart details section, there should be a Phase Name dropdown, a Task Name dropdown, and a Month Number field. Below these, Save and Restart buttons should be provided
+
+06.08.2026
+• In the LOA module's Gantt chart section, the UI design consists of dropdown fields for Phase Name, Task Name, and Month, with "Save" and "Reset" buttons located underneath. Below the buttons, a display box dynamically shows the saved entries, presenting each Phase Name with its associated Task Name below it and the corresponding Month next to it. Every time the user clicks "Save", the new entry is automatically added to this display box.
+• why LOA module LOA details section i click save & continue not working change working type
+• If the phase name is the same, avoid repeating it. Group all related tasks under a single phase header
+• In the Engineer Master module, entering the IFSC Code should automatically populate the Bank Name, Branch, and Bank Address, just like it does in Banking Details. This same auto-fetch functionality should also be implemented across Customer Master, Vendor Master, and Bank Master
+• Customer Master: Set validation for Contact Number and Pincode to allow numbers only set limit only.
+• For the LOA Excel export, please split the output into two sheets: LOA Summary (with Station info at the top followed by overall summary data) and LOA Item Details (containing line items). Ensure this logic applies strictly to the Excel export function only and does not impact any other modules or API responses
+
+07.08.2026
+• When an item on the purchase order list page is clicked, a popup should display showing the item name, ordered quantity, received quantity, and incoming quantity. As incoming quantities are added, the received quantity should update automatically and save directly to the "purchase order received" table in the database, without affecting any others code.
+• In the popup, it should show the item name and income quantity along with an "Order/Received"section, displayed as a table. Below this, it should show the total ordered quantity and the amount received so far. Note that the newly received items are referred to as the "incoming quantity".
+• Until the order arrives, there will be nothing under "Received", but once the incoming quantity is entered, it will be added to the received quantity.
+• The popup should appear on the same page, displaying the item name, order/received, and incoming quantity, with an "Update" button below it
+• I need a single-page popup displaying the item name and order status, with an update option below it, without the received field.
+
