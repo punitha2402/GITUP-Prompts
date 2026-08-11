@@ -71,3 +71,15 @@
 • The popup should appear on the same page, displaying the item name, order/received, and incoming quantity, with an "Update" button below it
 • I need a single-page popup displaying the item name and order status, with an update option below it, without the received field.
 
+10.08.2026
+• I want the items saved in the Purchase Order module to be automatically saved to the Purchase Order Received table in the database.
+• I need a single-page popup screen displaying Item Name, Order Quantity, Received Quantity, Balance Quantity, and Incoming Quantity, with an Update button at the bottom
+• In the Purchase Order module's item details, when I set the GST percentage and enter the Unit Price (Incl. GST) along with the Order Quantity, the system should automatically calculate and display the Unit Price (Excl. GST), Unit Price (Incl. GST), Total Price (Excl. GST), and Total Price (Incl. GST).
+• I do not need a separate GST table in the database; I just need the calculation to happen inside the item details section of the Purchase Order module
+• In the Purchase Order item details section, when I enter the order quantity and GST percentage, only the GST calculation logic should change, without altering any other existing code.
+• In the purchase order item details, just like the total price is calculated based on the ordered quantity, I need the total price to be automatically calculated based on the received quantity as well. This total should be displayed both including GST and excluding GST."
+• When I change the unit price including GST, the total received price (both incl. GST and excl. GST) is not changing. It should automatically update whenever the unit price is changed.
+• When I save a Purchase Order, the details should automatically save into the LOA Management module as well. When I click the 'View' button, the saved data should be added and displayed correctly
+• On the Purchase Order List page, place a Filters button to the left of the Add New PO button. Tapping this button should open two date pickers: Start Date and End Date, which will filter records based on the PO Date. Additionally, include a Delivery Date field to filter records based on the Expected Delivery Date not affect other code
+• just like i click Fully Received box i mean pendding left side box show the full received details show not affect other code
+
