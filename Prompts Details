@@ -95,4 +95,5 @@
 • why not open purchase order index find the problem not affect other code
 • set validation limits In the City Master module, restrict the Pincode field to accept numbers only with a fixed character limit. In the Vendor Master module, apply numerical-only limits to Contact Number, Alternate Contact Number, Pincode, and Account Number. Additionally, enforce standard length validation for the IFSC Code field.not affect other code
 • why gantt chart phases master not working on index page  edit option slove the problem but not affect other code
-•In the Admin module, under the Users section, I need fields to enter the Staff Name and Username
+• In the Admin module, under the Users section, I need fields to enter the Staff Name and Username
+• slove the problem in setting dashboard.tsx not affect other code
