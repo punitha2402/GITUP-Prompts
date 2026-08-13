@@ -83,3 +83,16 @@
 • On the Purchase Order List page, place a Filters button to the left of the Add New PO button. Tapping this button should open two date pickers: Start Date and End Date, which will filter records based on the PO Date. Additionally, include a Delivery Date field to filter records based on the Expected Delivery Date not affect other code
 • just like i click Fully Received box i mean pendding left side box show the full received details show not affect other code
 
+12.08.2026
+• Add Import Excel and Download Sample Template features to Engineer Master.
+• Do it the same way as in Customer Master.
+• implement Excel Import and Sample Template Download features in Engineer Master (Settings module), replicating the design and workflow from Customer Master. Not affect other code
+• In Engineer Master, add an Employee ID input field under Personal Information.
+• When downloading the sample template in Engineer Master, the fields that have dropdowns in the form should also appear as dropdown lists in the Excel file.
+
+13.08.2026
+• why not open purchase order index find the problem no change code
+• why not open purchase order index find the problem not affect other code
+• set validation limits In the City Master module, restrict the Pincode field to accept numbers only with a fixed character limit. In the Vendor Master module, apply numerical-only limits to Contact Number, Alternate Contact Number, Pincode, and Account Number. Additionally, enforce standard length validation for the IFSC Code field.not affect other code
+• why gantt chart phases master not working on index page  edit option slove the problem but not affect other code
+•In the Admin module, under the Users section, I need fields to enter the Staff Name and Username
