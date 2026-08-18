@@ -104,8 +104,7 @@
 
 18.08.2026
 •Implement production-ready export options across all form/list DataTables. Add PDF and Excel export buttons next to the existing Copy button in every applicable DataTable. not affect other code
-•export all available details without omitting any information. When I download this as a [PDF / Copy / Excel / CSV / Print], ensure the document includes the complete dataset, all fields, and the entire breakdown of all total details not affect other code
-•
+•Generate a complete table of the list page data with all details included. Ensure no fields or summary rows are left out so it can be exported to PDF, Excel, CSV, Copy, or Print without losing any information
 •
 •
 •
