@@ -108,5 +108,5 @@
 
 19.08.2026
 •update Purchase Order Item Details so that Balance Qty = Available Qty - Order Qty, GST % is a **typed numeric input (no dropdown)**, and Excl. GST, Incl. GST, and GST Amount are automatically calculated based on the entered values, while keeping the existing UI and functionality unchanged and using production-ready code. not affect other code
-•
+•update the Purchase Order Item Details so that GST % is a typed numeric input (no dropdown), and based on any two of GST %, Unit Price (Incl. GST), and Unit Price (Excl. GST), the remaining value is automatically calculated, while keeping the existing UI and functionality unchanged with production-ready code. not affect other code
 •
