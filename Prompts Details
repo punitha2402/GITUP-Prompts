@@ -105,8 +105,8 @@
 18.08.2026
 •Implement production-ready export options across all form/list DataTables. Add PDF and Excel export buttons next to the existing Copy button in every applicable DataTable. not affect other code
 •Generate a complete table of the list page data with all details included. Ensure no fields or summary rows are left out so it can be exported to PDF, Excel, CSV, Copy, or Print without losing any information
-•
-•
-•
+
+19.08.2026
+•update Purchase Order Item Details so that Balance Qty = Available Qty - Order Qty, GST % is a **typed numeric input (no dropdown)**, and Excl. GST, Incl. GST, and GST Amount are automatically calculated based on the entered values, while keeping the existing UI and functionality unchanged and using production-ready code. not affect other code
 •
 •
