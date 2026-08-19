@@ -112,7 +112,7 @@
 •Implement the GST unit-price calculation with these 3 rules: 1) If Unit Price (Incl. GST) is entered first and then Unit Price (Excl. GST) is entered, do not change the existing Incl. GST value; instead, calculate and display the applicable GST difference. 2) If Unit Price (Incl. GST) and GST are entered, automatically calculate Unit Price (Excl. GST). 3) If Unit Price (Excl. GST) and GST are entered, automatically calculate Unit Price (Incl. GST). Follow the existing .claude folder instructions and maintain production-ready code standards. not affect other code
 •Cannot use Maatwebsite\Excel\Concerns\Import as Import because the name is already in use
 i need slove import excel  error for all form npt affect other code
-•
+•add import excel and dwonload sample template for engineer master not affect other code
 •
 •
 •
