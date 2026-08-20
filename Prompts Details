@@ -116,6 +116,6 @@
 •Cannot use Maatwebsite\Excel\Concerns\Import as Import because the name is already in use
 i need slove import excel  error for all form npt affect other code
 •add import excel and dwonload sample template for engineer master not affect other code
-•
-•
-•
+
+20.08.2026
+•Fix the Auto-Focus Functionality in all applicable filled/input fields across the project without affecting any existing code, functionality, validation, UI, calculations, or business logic, and follow the .claude folder guidelines with production-ready changes only.
