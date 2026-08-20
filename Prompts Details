@@ -120,3 +120,9 @@ i need slove import excel  error for all form npt affect other code
 20.08.2026
 • Fix the Auto-Focus Functionality in all applicable filled/input fields across the project without affecting any existing code, functionality, validation, UI, calculations, or business logic, and follow the .claude folder guidelines with production-ready changes only.
 • Implement Auto-Focus functionality across all applicable Create and Edit forms. When a form page opens, automatically focus the first relevant input field so the user can start typing immediately. Follow the existing `.claude` folder instructions and project patterns. Ensure it works consistently across all Masters/Forms without affecting any existing functionality, validation, UI, or other code. Use a reusable production-ready approach and avoid duplicate logic. but not affect other code
+• Implement Auto-Focus functionality across all applicable forms.
+When any form/page is opened, the cursor should automatically focus on the first/primary input field so the user can start typing immediately. Apply this consistently across the entire project, including the Login page and all Master and all/Form pages.
+•
+•
+•
+•
