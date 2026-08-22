@@ -122,7 +122,12 @@ i need slove import excel  error for all form npt affect other code
 • Implement Auto-Focus functionality across all applicable Create and Edit forms. When a form page opens, automatically focus the first relevant input field so the user can start typing immediately. Follow the existing `.claude` folder instructions and project patterns. Ensure it works consistently across all Masters/Forms without affecting any existing functionality, validation, UI, or other code. Use a reusable production-ready approach and avoid duplicate logic. but not affect other code
 • Implement Auto-Focus functionality across all applicable forms.
 When any form/page is opened, the cursor should automatically focus on the first/primary input field so the user can start typing immediately. Apply this consistently across the entire project, including the Login page and all Master and all/Form pages.
-•
-•
-•
-•
+
+21.08.2026
+•Implement the Auto-Focus functionality only in the LOA Management module for both Create and Edit forms. but not affect other code
+•why not working Auto-Focus functionality  in LOA Item Details
+ slove but not affect otther code
+•Update the LOA Management module so that the Payment Type percentage in LOA Details cannot exceed 100%, and the user cannot proceed to the next tab using Save & Continue without selecting and completing the required Payment Type details. In LOA Item Details, when an Item Category is selected, display its corresponding Payment Type with the same configured color and show its percentage. The Payment Type name and percentage must also be displayed consistently in the LOA View Summary, Excel export, and PDF export, without affecting any existing functionality or unrelated code.not affect other code
+
+22.08.2026
+•In the LOA Payment Type section, Do not add or calculate any Total Percentage field or functionality, and do not affect the existing payment logic.
