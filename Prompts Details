@@ -130,4 +130,6 @@ When any form/page is opened, the cursor should automatically focus on the first
 •Update the LOA Management module so that the Payment Type percentage in LOA Details cannot exceed 100%, and the user cannot proceed to the next tab using Save & Continue without selecting and completing the required Payment Type details. In LOA Item Details, when an Item Category is selected, display its corresponding Payment Type with the same configured color and show its percentage. The Payment Type name and percentage must also be displayed consistently in the LOA View Summary, Excel export, and PDF export, without affecting any existing functionality or unrelated code.not affect other code
 
 22.08.2026
-•In the LOA Payment Type section, Do not add or calculate any Total Percentage field or functionality, and do not affect the existing payment logic.
+• In the LOA Payment Type section, Do not add or calculate any Total Percentage field or functionality, and do not affect the existing payment logic.
+• i download excel sheet for loa module but this error show 504 slove the problem not affect other code
+• Update the LOA Management PDF download to generate the document in A3 paper size. The PDF should be properly aligned and formatted to fit the complete LOA form on a single A3 page, with correct margins, spacing, table alignment, and readable font sizes. Keep the existing LOA data and functionality unchanged. Only update the PDF layout/format to support A3-size download, without affecting any other code or modules.
