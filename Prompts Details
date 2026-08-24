@@ -142,3 +142,13 @@ Show the warning message **next to the List Box/Delete action area**:
 This validation must work **every time the user attempts to delete the LOA**. The system should check the Purchase Order relationship on every delete attempt and must not allow deletion as long as a related Purchase Order exists.
 Only after all related Purchase Orders are deleted should the LOA be allowed to be deleted.
 Do not affect any other existing functionality or unrelated code.
+
+24.08.2026
+•Implement a warning message popup in the LOA Management module. The popup should automatically appear when the warning condition occurs, remain visible for 7 seconds, and include a Close button so the user can dismiss it immediately. The warning message should be clearly displayed with appropriate warning styling. Do not affect any existing functionality or other modules.
+•
+•
+•
+•
+•
+•
+
