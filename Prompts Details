@@ -148,7 +148,8 @@ Do not affect any other existing functionality or unrelated code.
 • If an LOA is already linked to a Purchase Order, prevent the user from deleting the LOA directly. When the user attempts to delete it, display a warning popup showing the LOA No, Order Qty, and a warning message stating that the LOA is already linked to a Purchase Order and must be removed from the Purchase Order first. The popup should include a Close button, remain visible for 8 seconds, and close automatically after 8 seconds. not affect other code
 • how mush time i click loa delete btn also show popup but not affect other code
 • Implement a **Railway-style confirmation popup** when clicking the **LOA Delete** button, showing a warning message with **Cancel, Delete, and Close (×)** options, without affecting any existing LOA delete functionality or other code. but not affect other code
-•
+• Implement the **LOA View and Downloadable PDF Field Mapping** by ensuring that all existing LOA fields and their values are correctly mapped and displayed in both the LOA View and the existing downloadable PDF, without creating a new PDF option or affecting any existing functionality.
+
 •
 •
 
