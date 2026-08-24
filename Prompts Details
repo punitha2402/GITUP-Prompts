@@ -144,8 +144,8 @@ Only after all related Purchase Orders are deleted should the LOA be allowed to 
 Do not affect any other existing functionality or unrelated code.
 
 24.08.2026
-•Implement a warning message popup in the LOA Management module. The popup should automatically appear when the warning condition occurs, remain visible for 7 seconds, and include a Close button so the user can dismiss it immediately. The warning message should be clearly displayed with appropriate warning styling. Do not affect any existing functionality or other modules.
-•
+• Implement a warning message popup in the LOA Management module. The popup should automatically appear when the warning condition occurs, remain visible for 7 seconds, and include a Close button so the user can dismiss it immediately. The warning message should be clearly displayed with appropriate warning styling. Do not affect any existing functionality or other modules.
+• If an LOA is already linked to a Purchase Order, prevent the user from deleting the LOA directly. When the user attempts to delete it, display a warning popup showing the LOA No, Order Qty, and a warning message stating that the LOA is already linked to a Purchase Order and must be removed from the Purchase Order first. The popup should include a Close button, remain visible for 8 seconds, and close automatically after 8 seconds. not affect other code
 •
 •
 •
