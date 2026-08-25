@@ -150,6 +150,7 @@ Do not affect any other existing functionality or unrelated code.
 • Implement a **Railway-style confirmation popup** when clicking the **LOA Delete** button, showing a warning message with **Cancel, Delete, and Close (×)** options, without affecting any existing LOA delete functionality or other code. but not affect other code
 • Implement the **LOA View and Downloadable PDF Field Mapping** by ensuring that all existing LOA fields and their values are correctly mapped and displayed in both the LOA View and the existing downloadable PDF, without creating a new PDF option or affecting any existing functionality.
 
-•
+25.08.2026
+• Implement an LOA delete confirmation popup like the reference image, with a centered warning icon, “Delete this record?” title, dynamic LOA details, Cancel and Delete buttons, while keeping the existing delete functionality unchanged.
 •
 
