@@ -154,7 +154,8 @@ Do not affect any other existing functionality or unrelated code.
 • Implement an LOA delete confirmation popup like the reference image, with a centered warning icon, “Delete this record?” title, dynamic LOA details, Cancel and Delete buttons, while keeping the existing delete functionality unchanged.
 • Set the Location field as a mandatory input when No. of Sites is entered, and prevent Save & Continue until a Location is selected, with validation behavior matching the existing Payment Type validation. but not affect other code
 • In the LOA Details form, make **No. of Sites** a sites-count input and make **Location** mandatory; when the user enters a site count but leaves Location unselected, prevent moving to the next tab and display a validation message requiring Location selection. but not affect other code
-•
+• Implement a warning popup in LOA Details when the user enters the **No. of Sites** count and clicks **Save & Continue** without adding the required **Location**, showing where to add the Location, displaying the popup for **8 seconds**, and providing a **Close** button, without affecting any other existing functionality.
+
 •
 •
 •
