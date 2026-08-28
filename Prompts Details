@@ -156,7 +156,8 @@ Do not affect any other existing functionality or unrelated code.
 • In the LOA Details form, make **No. of Sites** a sites-count input and make **Location** mandatory; when the user enters a site count but leaves Location unselected, prevent moving to the next tab and display a validation message requiring Location selection. but not affect other code
 • Implement a warning popup in LOA Details when the user enters the **No. of Sites** count and clicks **Save & Continue** without adding the required **Location**, showing where to add the Location, displaying the popup for **8 seconds**, and providing a **Close** button, without affecting any other existing functionality.
 
-•
+28.08.2026
+• When editing an Inspection, the **Inspection Details** section should be frozen/read-only like the **Purchase Order Details** section. The field order should be **Zone → LOA No → Inspection No → Inspection By**, followed by the remaining fields. Move the **Remark Summary** section below the Inspection Details. but not affect other code
 •
 •
 •
