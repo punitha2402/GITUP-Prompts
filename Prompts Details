@@ -158,7 +158,7 @@ Do not affect any other existing functionality or unrelated code.
 
 28.08.2026
 • When editing an Inspection, the **Inspection Details** section should be frozen/read-only like the **Purchase Order Details** section. The field order should be **Zone → LOA No → Inspection No → Inspection By**, followed by the remaining fields. Move the **Remark Summary** section below the Inspection Details. but not affect other code
-•
+• When adding a new Inspection, existing Inspection records should not be displayed. Existing Inspection data should be shown only in Edit mode, and only the selected Inspection should be editable; other Inspections must remain unchanged and inaccessible for editing. but not affect other code
 •
 •
 •
