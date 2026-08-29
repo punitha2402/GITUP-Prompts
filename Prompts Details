@@ -159,6 +159,8 @@ Do not affect any other existing functionality or unrelated code.
 28.08.2026
 • When editing an Inspection, the **Inspection Details** section should be frozen/read-only like the **Purchase Order Details** section. The field order should be **Zone → LOA No → Inspection No → Inspection By**, followed by the remaining fields. Move the **Remark Summary** section below the Inspection Details. but not affect other code
 • When adding a new Inspection, existing Inspection records should not be displayed. Existing Inspection data should be shown only in Edit mode, and only the selected Inspection should be editable; other Inspections must remain unchanged and inaccessible for editing. but not affect other code
-•
+
+29.08.2026
+• Inspection Module → LOA Line Items: Add an **Inspection Charges** dropdown after Inspection Status with **Customer** and **Ascent** options. When **Ascent** is selected, display a percentage textbox for entering Ascent charges. Add an **INS Complete Date** field after Inspection Charges, keep the existing **Remark** field, and add two separate upload options after Remark for **Inspection Document** and **Inspection Report**, with proper create, edit, validation, backend, database, and file-upload support. but not affect other code
 •
 •
