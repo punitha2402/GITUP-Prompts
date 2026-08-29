@@ -162,5 +162,5 @@ Do not affect any other existing functionality or unrelated code.
 
 29.08.2026
 • Inspection Module → LOA Line Items: Add an **Inspection Charges** dropdown after Inspection Status with **Customer** and **Ascent** options. When **Ascent** is selected, display a percentage textbox for entering Ascent charges. Add an **INS Complete Date** field after Inspection Charges, keep the existing **Remark** field, and add two separate upload options after Remark for **Inspection Document** and **Inspection Report**, with proper create, edit, validation, backend, database, and file-upload support. but not affect other code
-•
+• In the Inspection Module → LOA Line Items, when selecting an LOA Line Item, check whether **PO No, Order Qty, and Received Qty** are available. If any of these values are missing or empty, the LOA Line Item should not be selectable, and display an alert message stating that **PO No, Order Qty, and Received Qty are required to select the LOA Line Item**.  but not affect other code
 •
