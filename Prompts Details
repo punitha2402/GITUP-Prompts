@@ -169,7 +169,7 @@ Do not affect any other existing functionality or unrelated code.
 • If an LOA Line Item has already been selected for an Inspection, it should not be displayed again in the Line Item selection list. The previously selected Line Item should be shown only when editing the existing Inspection. but not affect other code
 • In the Inspection Edit screen, retain the existing popup message “Please select at least one LOA line item for inspection” and add relevant filters such as LOA Item Code, Item Name, Purchase Order No, and Inspection Status to easily find and select the required line items.but not affect other code
 • Add filters for **Inspection No, Zone, LOA No, Inspection By, and Inspection Date** in the Inspection screen. **Inspection No, Zone, LOA No, and Inspection By** should be dropdown filters, while **Inspection Date** should be a normal date field.but not affect other code
-•
+•In the **Create** screen, follow the same behavior and popup approach used in Edit, but avoid the generic **“Something went wrong”** alert title and use a more relevant inspection-specific message. When a new inspection is created against an existing Purchase Order quantity, the newly inspected quantity should be accumulated and reflected in subsequent inspections. In the **View** screen only, display a history table showing the **Inspection Date** and **Inspection Quantity** for each previous inspection, so users can clearly see how much quantity was inspected on each date. but not affect other code 
 •
 •
 •
