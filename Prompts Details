@@ -167,7 +167,7 @@ Do not affect any other existing functionality or unrelated code.
 
 31.08.2026
 • If an LOA Line Item has already been selected for an Inspection, it should not be displayed again in the Line Item selection list. The previously selected Line Item should be shown only when editing the existing Inspection. but not affect other code
-•
+• In the Inspection Edit screen, retain the existing popup message “Please select at least one LOA line item for inspection” and add relevant filters such as LOA Item Code, Item Name, Purchase Order No, and Inspection Status to easily find and select the required line items.but not affect other code
 • 
 •
 •
