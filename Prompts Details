@@ -173,7 +173,9 @@ Do not affect any other existing functionality or unrelated code.
 • In the Inspection Edit screen, show the previously entered Inspection Qty automatically in the Previous Inspection Qty field and provide Previous Inspection Date as a normal date field; in the View screen, display these previous inspection details in an expandable arrow-style section.  but not affect other code
 • In Inspection Edit, keep the new **Inspection Qty** empty and show previously saved quantities in **Previous Inspection Qty**. Each saved inspection should be stored separately with its **Inspection Qty and Inspection Date**, and displayed individually in the View screen as an inspection history table.  but not affect other code
 • In the **Inspection Item Details** section, each time the inspection is edited and saved, retain the complete previous inspection details as separate entries within the same section. Do not create a separate **Saved Inspection Entries** section; all previous inspection details should be displayed within **Inspection Item Details**. but not affect other code
-•
+
+01.09.2026
+• In Inspection View, keep the dropdown icon only near Inspection History, place the Description on the left side, and display all dropdown details below the Description. but not affect other code
 •
 •
 •
