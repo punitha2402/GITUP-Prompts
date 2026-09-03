@@ -181,7 +181,6 @@ Do not affect any other existing functionality or unrelated code.
 
 3.09.2026
 • Create a new “Place of Inspection” master with fields for “Place of Inspection” and “Status”, and make it available for selection wherever the Place of Inspection field is used, without affecting any existing code or functionality.
+• Remove Other, Received Qty, Previous INS Qty, and Previous INS Date from Inspection; change INS Charges from percentage to amount, add Scheduled to INS Status, and make Place of INS a dropdown for  RDSO but a text input for Consignee/RITES, without affecting any existing code or functionality.
 •
 •
-•
-
