@@ -178,7 +178,9 @@ Do not affect any other existing functionality or unrelated code.
 • In Inspection View, keep the dropdown icon only near Inspection History, place the Description on the left side, and display all dropdown details below the Description. but not affect other code
 • Change the existing Inspection View screen to a clean, modern, professional ERP-style design while keeping all existing data, functionality, and backend logic unchanged. but not affect other code
 • In the Inspection Status dropdown, show only these three options: Pending, Completed, and Rejected.
-•
+
+3.09.2026
+• Create a new “Place of Inspection” master with fields for “Place of Inspection” and “Status”, and make it available for selection wherever the Place of Inspection field is used, without affecting any existing code or functionality.
 •
 •
 •
