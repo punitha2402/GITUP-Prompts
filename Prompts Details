@@ -183,4 +183,25 @@ Do not affect any other existing functionality or unrelated code.
 • Create a new “Place of Inspection” master with fields for “Place of Inspection” and “Status”, and make it available for selection wherever the Place of Inspection field is used, without affecting any existing code or functionality.
 • Remove Other, Received Qty, Previous INS Qty, and Previous INS Date from Inspection; change INS Charges from percentage to amount, add Scheduled to INS Status, and make Place of INS a dropdown for  RDSO but a text input for Consignee/RITES, without affecting any existing code or functionality.
 • Make the Inspection Create, Edit, and View screens colourful, modern, attractive, and professional with a clean ERP-style UI, while keeping all existing data, functionality, business logic, validations, and API behaviour unchanged.
+
+16.09.2026
+• Update the existing Store module as Delivery Location, ensure it appears correctly on the Index page, and update the Create form with mandatory fields: Zone, Delivery Location Name, Address, PIN Code, GST No., Contact Person 1 & 2, Contact No. 1 & 2, and Active, without affecting existing functionality or other modules.
+• Update the Delivery Location module to have a proper Index page instead of only the View page, with Add New, Filter, Export, Download Sample Template, and Import options, while keeping the existing Create, View, Edit, validation, permissions, and other functionality unchanged and without affecting any unrelated modules.
+• Ceate the Delivery Location Index page following the exact same structure, layout, table design, filters, action buttons, pagination, and overall UI pattern used in the existing Master Station Index page. Include Add New, Filter, Export, Download Sample Template, and Import options as available in Station Index. Reuse the existing project conventions and do not affect any other module or functionality.
+• In the LOA form, add a Delivery Location tab/section before the existing Project Team section. The Delivery Location field should be a dropdown that loads and displays the existing Delivery Location Names. Keep the existing LOA functionality unchanged and do not affect any other fields or modules.
+
+17.09.2026
+• Please update the Delivery Location functionality so that users can add any number of delivery locations as required, and replace the “Store” terminology with “Delivery Location” throughout the application without affecting any existing functionality.
 •
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
