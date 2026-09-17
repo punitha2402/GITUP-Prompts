@@ -193,7 +193,7 @@ Do not affect any other existing functionality or unrelated code.
 17.09.2026
 • Please update the Delivery Location functionality so that users can add any number of delivery locations as required, and replace the “Store” terminology with “Delivery Location” throughout the application without affecting any existing functionality.
 • Add a Delivery Location section in the LOA form similar to the Project Team section, allowing users to add multiple Delivery Locations dynamically using an “+ Add Delivery Location” option. Each added location should have the required location field with appropriate validation, and users should be able to remove locations before saving. The existing functionality and other LOA sections must not be affected.
-•
+• Add a separate Name of the Project field in the LOA Details section, save it with the LOA, and connect it to the corresponding PO, without making any changes to the existing any code
 •
 •
 •
