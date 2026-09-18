@@ -201,7 +201,11 @@ Do not affect any other existing functionality or unrelated code.
 • Fix the Delivery Location module error where DeliveryLocationController::show() is undefined by checking the existing routes and controller, and remove or correct only the unnecessary show route without affecting any other functionality.
 • Fix the Excel Import permission denied and CSRF token mismatch errors across all Master modules by correcting the Laravel Excel temporary-file/storage permissions and import CSRF handling centrally, ensuring .xlsx/.xls upload, preview, confirmation, and import work correctly without affecting existing functionality.
 • Fix and implement auto-focus functionality across the entire project for all applicable input fields, ensuring that after field entry, validation, submission, or navigation, the cursor automatically moves to the appropriate next field according to the existing form flow, without affecting any existing UI, functionality, calculations, validations, or business logic.
-•
+• In the Inspection (INS) Charges module, update the charges functionality so that the amount entered for Ascent or Customer is correctly reflected on the Inspection Index/List page
+• The Index page should dynamically display the corresponding charge amount based on the charges entered in the INS form. For example, if I enter an amount for Ascent, the Index should show that Ascent amount; if I enter an amount for Customer, the Index should show the Customer amount instead of `Nil`.
+Whenever the charge amount is added or updated, the corresponding value on the Index page must also be updated correctly. The same values should be included correctly in the Export option.
+Check the existing INS Charges database fields, save/update logic, Index query, display columns, and export implementation before making changes.
+Do not affect any other existing INS functionality, calculations, validations, UI, workflow, or business logic.
 •
 •
 •
