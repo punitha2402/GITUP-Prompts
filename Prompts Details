@@ -216,4 +216,25 @@ Keep the existing functionality, validations, calculations, business logic, styl
 • Remove the OTHERS section and all “Others” line items from the INS Create module, so that only the relevant PO/LOA inspection line items are displayed. Ensure the existing inspection selection, quantity handling, validations, save, and other functionality remain unchanged.
 • Fix the Purchase Order List page total row alignment. The total values are currently correct, but they are displayed under the wrong columns. Keep the existing total calculations exactly as they are and only fix the column alignment so that each total appears directly under its corresponding column header. Ensure the Total row matches the table column structure, including Received/Ordered and Total PO Amount. Do not change any business logic, calculations, filters, sorting, export functionality, or other existing functionality.
 • Update the Material Supply module so that Available Qty is calculated only from the PO Received Qty. Do not use Inspection Qty or any Inspection-related calculation in Material Supply. Remove the Received Qty field/column from the Material Supply Create page UI, but continue using the PO's received_qty internally for the Available Qty calculation. Available Qty should be calculated as: PO Received Qty − Total Previously Supplied Qty for the same LOA Item. Keep the existing cumulative previous-supply logic. Do not affect LOA, PO, Inspection, Station Execution, validations, save functionality, or any other existing functionality. Update all related frontend, backend, validation, and display logic consistently.
-
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
