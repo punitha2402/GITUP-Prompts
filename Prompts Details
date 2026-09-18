@@ -213,7 +213,7 @@ Zone → LOA No → Inspection By → Inspection No → Inspection From → Insp
 3.In the INS Charges section, display the Totalamount at the bottom of the charges list.
 4.In the INS Create and View pages, move the Save and Cancel buttons to the left side, following the existing project UI pattern.
 Keep the existing functionality, validations, calculations, business logic, styling, and workflow unchanged except for the requested UI changes. Ensure the changes are applied consistently across the INS module.
-•
+• Remove the OTHERS section and all “Others” line items from the INS Create module, so that only the relevant PO/LOA inspection line items are displayed. Ensure the existing inspection selection, quantity handling, validations, save, and other functionality remain unchanged.
 •
 •
 
