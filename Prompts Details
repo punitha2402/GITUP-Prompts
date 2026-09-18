@@ -214,6 +214,6 @@ Zone → LOA No → Inspection By → Inspection No → Inspection From → Insp
 4.In the INS Create and View pages, move the Save and Cancel buttons to the left side, following the existing project UI pattern.
 Keep the existing functionality, validations, calculations, business logic, styling, and workflow unchanged except for the requested UI changes. Ensure the changes are applied consistently across the INS module.
 • Remove the OTHERS section and all “Others” line items from the INS Create module, so that only the relevant PO/LOA inspection line items are displayed. Ensure the existing inspection selection, quantity handling, validations, save, and other functionality remain unchanged.
-•
+• Fix the Purchase Order List page total row alignment. The total values are currently correct, but they are displayed under the wrong columns. Keep the existing total calculations exactly as they are and only fix the column alignment so that each total appears directly under its corresponding column header. Ensure the Total row matches the table column structure, including Received/Ordered and Total PO Amount. Do not change any business logic, calculations, filters, sorting, export functionality, or other existing functionality.
 •
 
