@@ -200,7 +200,7 @@ Do not affect any other existing functionality or unrelated code.
 • set the Mobile Number field limit in the Admin → User module to exactly 10 digits, allowing numbers only, with proper frontend and backend validation, without affecting any other existing functionality.
 • Fix the Delivery Location module error where DeliveryLocationController::show() is undefined by checking the existing routes and controller, and remove or correct only the unnecessary show route without affecting any other functionality.
 • Fix the Excel Import permission denied and CSRF token mismatch errors across all Master modules by correcting the Laravel Excel temporary-file/storage permissions and import CSRF handling centrally, ensuring .xlsx/.xls upload, preview, confirmation, and import work correctly without affecting existing functionality.
-•
+• Fix and implement auto-focus functionality across the entire project for all applicable input fields, ensuring that after field entry, validation, submission, or navigation, the cursor automatically moves to the appropriate next field according to the existing form flow, without affecting any existing UI, functionality, calculations, validations, or business logic.
 •
 •
 •
