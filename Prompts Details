@@ -195,7 +195,9 @@ Do not affect any other existing functionality or unrelated code.
 • Add a Delivery Location section in the LOA form similar to the Project Team section, allowing users to add multiple Delivery Locations dynamically using an “+ Add Delivery Location” option. Each added location should have the required location field with appropriate validation, and users should be able to remove locations before saving. The existing functionality and other LOA sections must not be affected.
 • Add a separate Name of the Project field in the LOA Details section, save it with the LOA, and connect it to the corresponding PO, without making any changes to the existing any code
 • In the LOA form, prevent duplicate entries with the same data for both Delivery Location and Project Team. The same Delivery Location or the same Project Team member/data must not be added more than once. Show an appropriate validation message when a duplicate entry is attempted. Keep the existing add functionality working correctly. Do not modify Payment Type, Name of the Project, Material Supply, or any other existing functionality, validation, business logic, calculations, or workflow.
-•
+
+18.09.2026
+•  set the Mobile Number field limit in the Admin → User module to exactly 10 digits, allowing numbers only, with proper frontend and backend validation, without affecting any other existing functionality.
 •
 •
 •
