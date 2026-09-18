@@ -206,7 +206,13 @@ Do not affect any other existing functionality or unrelated code.
 Whenever the charge amount is added or updated, the corresponding value on the Index page must also be updated correctly. The same values should be included correctly in the Export option.
 Check the existing INS Charges database fields, save/update logic, Index query, display columns, and export implementation before making changes.
 Do not affect any other existing INS functionality, calculations, validations, UI, workflow, or business logic.
-•
+• Update the INS modulewith the following changes:
+1.Change the INS Index/List page filter order to:
+Zone → LOA No → Inspection By → Inspection No → Inspection From → Inspection 
+2.Display the Project Name column on the INS Index/List page.
+3.In the INS Charges section, display the Totalamount at the bottom of the charges list.
+4.In the INS Create and View pages, move the Save and Cancel buttons to the left side, following the existing project UI pattern.
+Keep the existing functionality, validations, calculations, business logic, styling, and workflow unchanged except for the requested UI changes. Ensure the changes are applied consistently across the INS module.
 •
 •
 •
