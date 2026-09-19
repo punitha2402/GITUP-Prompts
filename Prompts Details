@@ -219,8 +219,7 @@ Keep the existing functionality, validations, calculations, business logic, styl
 
 19.09.2026
 • In the INS form, rename the “INS Place” field to “INS Authority” and, when “INS By” is selected as RDSO or RITES, display an INS Authority dropdown populated from the existing Master → Place of Inspection values, without making any database changes or affecting other existing code or functionality.
-
-•
+• Remove only the “PLACE OF INS” column from the Inspection UI, while keeping all existing database tables, columns, data, backend logic, APIs, validations, and other functionality completely unchanged; this must be a UI-only change with no database modifications whatsoever.not affect other code
 •
 •
 •
